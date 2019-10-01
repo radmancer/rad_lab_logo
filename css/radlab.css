@@ -6,6 +6,13 @@
 }
 /*Centering on both axises only works on divs.*/
 .centerXY{
+    display:flex;
+    /* align horizontal */
+    justify-content:center;
+    /* align vertical */
+    align-items:center;
+}
+.centerDivXY{
     position: absolute;
     left: 50%;
     top: 50%;
